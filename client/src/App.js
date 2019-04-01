@@ -3,8 +3,8 @@ import { BrowserRouter as Router, Route, Redirect, Switch } from "react-router-d
 import Home from './js/Home.js';
 import Tourney from './js/Tourney.js';
 import io from 'socket.io-client';
-let socket = io("localhost:5000")
-//let socket = io("https://tourney-map.herokuapp.com");
+//let socket = io("localhost:5000")
+let socket = io("https://tourney-map.herokuapp.com");
 
 socket.on('warning', function(data) {
   alert(data);
@@ -28,6 +28,7 @@ class App extends Component {
       <Router>
         <div>
           <Switch>
+            <Route path="/tourneymap" component={myHome} />
             <Route path="/tourneymap/home" component={myHome} />
             <Route path='/tourneymap/tourney/:id' component={myTourney} />
             <Redirect to="/tourneymap/home" />
