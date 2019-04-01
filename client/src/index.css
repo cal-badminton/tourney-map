@@ -1,0 +1,156 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.home {
+  background: linear-gradient(90deg, #427cf4 50%, #f44242 50%);
+  height: 100vh;
+}
+
+.home-box {
+  width: 25em;
+  height: 50%;
+  border: 2px solid #808080;
+  margin: auto;
+  transform: translateY(50%);
+  background-color: #F8F8F8;
+  border-radius: 10px;
+}
+
+.home-title {
+  text-align: center;
+  font-size: 50px;
+  font-family: Bookman;
+}
+
+.home-create {
+  display: inline-block;
+  width: 50%;
+  text-align: center;
+}
+
+.home-manage {
+  text-align: center;
+  display: inline-block;
+  width: 50%;
+}
+
+.home-create-button {
+  background-color: #427cf4;
+  color: white;
+  border: 0px;
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+.home-manage-button {
+  background-color: #f44242;
+  color: white;
+  border: 0px;
+  font-size: 20px;
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.home-input {
+  width: 80%;
+}
+
+.home-text {
+  margin-top: 4px;
+  margin-bottom: 4px;
+}
+
+.grid-tile {
+  border: 1px solid #808080;
+  width: 8vh;
+  height: 8vh;
+  margin-right: -1px;
+  margin-top: -1px;
+  text-align: center;
+  display: inline-block;
+  white-space: normal;
+  overflow: hidden;
+}
+
+.grid-row {
+  display: block;
+  height: 8vh;
+  width: calc(144vh + 18px);
+  white-space: nowrap;
+  margin-top: 1px;
+}
+
+.tile-title {
+  display: inline-block;
+}
+
+.tourney {
+  white-space: nowrap;
+  display: inline-block;
+}
+
+.tourney-name {
+  text-align: center;
+  font-size: 35px;
+  font-style: bold;
+}
+
+.tourney-menu {
+  display: inline-block;
+  border-right: 2px solid #808080;
+  white-space: normal;
+  width: 15vw;
+  height: 100vh;
+  text-align: center;
+  float: left;
+}
+
+.menu-text {
+  display: inline-block;
+  margin-right: 3px;
+}
+
+.chat-text {
+  width: 80%;
+  margin: auto;
+  list-style: none;
+}
+
+.chat-line {
+  width: 20%;
+}
+
+.chat-box {
+  position: absolute;
+  bottom: 20px;
+  margin-left: 1.55vw;
+  border: 2px solid #808080;
+  border-radius: 5px;
+}
+
+.tourney-display {
+  display: inline-block;
+  white-space: normal;
+  height: 100vh;
+  width: 85vw;
+}
+
+.tourney-grid {
+  width: calc(144vh + 18px);
+  margin: auto;
+  margin-top: 10vh;
+}
+
+.timer-button {
+  width: 4vh;
+}
+
+#selected {
+  border: 3px solid;
+  margin: -2px -2px -3px -3px;
+}
